@@ -49,6 +49,15 @@
   .section-para {
     font-size: 0.8rem;
   }
+  .programs {
+    padding: 3rem 0;
+  }
+  .program-cards {
+    gap: 1.5rem;
+  }
+  .program-icon {
+    
+  }
 }
 
 @media (max-width: 768px) {
@@ -84,5 +93,8 @@
   }
   .about-content ul {
     grid-template-columns: 1fr;
+  }
+  .program-cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
