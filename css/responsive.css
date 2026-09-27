@@ -16,10 +16,6 @@
     padding: 3rem;
     background-position: center;
   }
-  .hero .container {
-    transform: none;
-  }
-
   .hero-content {
     gap: 1rem;
     transform: translateY(-20px);
@@ -35,7 +31,7 @@
     font-size: 1rem;
   }
   .about {
-    padding: 3rem;
+    padding: 3rem 0;
   }
   .about .container {
     gap: 2rem;
@@ -55,8 +51,33 @@
   .program-cards {
     gap: 1.5rem;
   }
-  .program-icon {
-    
+  .trainers {
+    padding: 3rem 0;
+  }
+  .trainer-cards {
+    gap: 2rem;
+  }
+  .pricing {
+    padding: 3rem 0;
+  }
+  .pricing-cards {
+    gap: 1.5rem;
+  }
+  .contact {
+    padding: 3rem 0;
+  }
+  .contact-info {
+    padding-top: 3rem;
+  }
+  .footer-content {
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .footer-nav {
+    gap: 1rem;
+  }
+  .footer-copyright {
+    padding-top: 0;
   }
 }
 
@@ -92,9 +113,34 @@
     text-align: center;
   }
   .about-content ul {
-    grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   }
   .program-cards {
     grid-template-columns: repeat(2, 1fr);
   }
+  .trainer-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .trainer-card {
+    padding: 1rem;
+  }
+  .pricing-cards {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 380px;
+    margin: 0 auto;
+  }
+  .contact-info {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .footer-content{
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-brand p {
+    margin-top: 0.25rem;
+  }
 }
+
