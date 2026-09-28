@@ -61,6 +61,7 @@ header ul a {
 }
 
 .hero {
+  display: flex;
   padding: 4rem;
   min-height: 100vh;
   background-image:
@@ -130,11 +131,9 @@ header ul a {
   color: var(--text-color);
   transform: translateY(-2px);
 }
-
 .about {
   padding: 4rem 0;
 }
-
 .about .container {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
